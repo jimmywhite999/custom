@@ -152,18 +152,5 @@ window.onload = async () => {
         allowOutsideClick: false,
         allowEscapeKey: false
     });
-
-    let confirmButton = document.querySelector('.my-confirm-button.swal2-confirm');
-    if (confirmButton) {
-        confirmButton.style.backgroundColor = '#f8f4f4';
-        confirmButton.style.color = '#000000';
-        confirmButton.style.fontSize = '20px';
-        confirmButton.style.borderColor = 'transparent';
-        confirmButton.style.boxShadow = 'none';
-        confirmButton.style.position = 'absolute';
-        confirmButton.style.right = '0px';
-        confirmButton.style.bottom = '30px';
-        confirmButton.style.transform = 'translate(-50%, 50%)';
-    }
     
 }
