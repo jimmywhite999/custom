@@ -44,7 +44,7 @@ window.onload = async () => {
         case "Google Chrome":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/chrome.png" class="my-icon" alt="Chrome Icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/chrome.png" class="my-icon" alt="Chrome Icon">
             <span class="title-class-Google-Chrome">Google Chrome Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
@@ -57,7 +57,7 @@ window.onload = async () => {
         case "Mozilla Firefox":
             errorMessage = `
            <div class="title-bar">
-               <img src="../images/firfox.jpg" class="my-icon" alt="Firefox Icon">
+               <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/firfox.jpg" class="my-icon" alt="Firefox Icon">
                <span class="title-class-Mozilla-Firefox ">Firefox Update Required</span>
                 <button class="my-custom-close" onclick="Swal.close()">&times;</button>
             </div>
@@ -70,7 +70,7 @@ window.onload = async () => {
         case "Apple Safari":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/applesafari.png" class="my-icon" alt="Apple Safari Icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/applesafari.png" class="my-icon" alt="Apple Safari Icon">
             <span class="title-class-Apple-Safari">Safari Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
@@ -81,7 +81,7 @@ window.onload = async () => {
         case "Opera":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/oplogoimage-removebg-preview.png" class="my-icon" alt="Opera Icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/op.png" class="my-icon" alt="Opera Icon">
             <span class="title-class-Opera">Opera Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
@@ -92,7 +92,7 @@ window.onload = async () => {
         case "Microsoft Internet Explorer":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/inter.png" class="my-icon" alt="Internet Explorer Icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/inter.png" class="my-icon" alt="Internet Explorer Icon">
             <span class="title-class-Microsoft-Internet-Explorer">Internet Explorer Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
@@ -103,7 +103,7 @@ window.onload = async () => {
         case "Microsoft Edge":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/microedge.png" class="my-icon" alt="edge icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/microedge.png" class="my-icon" alt="edge icon">
            <span style="display: block; text-align: center; position: absolute; left: 40%; transform: translate(-50%); margin: 20px 0; font-size: 22px; font-family: 'Arial', sans-serif;">Microsoft Edge Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
@@ -114,7 +114,7 @@ window.onload = async () => {
         case "Brave":
             errorMessage = `
         <div class="title-bar">
-            <img src="../images/brave.jpg" class="my-icon" alt="Brave Icon">
+            <img src="https://raw.githubusercontent.com/jimmywhite999/custom/main/brave.jpg" class="my-icon" alt="Brave Icon">
             <span class="title-brave">Brave Update Required</span>
             <button class="my-custom-close" onclick="Swal.close()">&times;</button>
         </div>
